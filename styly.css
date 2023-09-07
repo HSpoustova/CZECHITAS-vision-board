@@ -1,0 +1,70 @@
+html {
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background-color: rgb(230, 224, 224);
+}
+
+h1,
+p {
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #756158;
+}
+
+a:hover,
+a:focus,
+a.active {
+  background-color: #ded5d0;
+}
+
+img {
+  width: 20%;
+  border-radius: 90px;
+  margin: auto;
+
+}
+
+ul,
+ol {
+  list-style-type: none;
+}
+
+ol {
+  float: right;
+}
+
+ul {
+  float: left;
+}
+
+ul>li {
+  padding-inline-start: 10px;
+}
+
+footer {
+  text-align: center;
+
+}
+
+.ikony {
+  width: 1em;
+  height: 1em;
+}
+
+.seznamy {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: center;
+}
+
+.vize {
+  text-align: center;
+  margin: auto;
+}
