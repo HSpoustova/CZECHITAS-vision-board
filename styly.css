@@ -3,7 +3,8 @@ html {
 }
 
 body {
-  background-color: rgb(230, 224, 224);
+  background: rgb(247, 247, 247);
+  background: linear-gradient(322deg, rgba(247, 247, 247, 1) 0%, rgba(253, 167, 45, 1) 100%);
 }
 
 h1,
@@ -22,10 +23,29 @@ a.active {
   background-color: #ded5d0;
 }
 
-img {
+.motivace {
   width: 20%;
   border-radius: 90px;
-  margin: auto;
+  padding: 10px;
+  z-index: 1;
+
+
+}
+
+.change {
+  width: 30%;
+  border-radius: 50px;
+  padding: 10px;
+  transform: rotate(-20deg);
+
+}
+
+.tag {
+  width: 30%;
+  border-radius: 50px;
+  padding: 10px;
+  transform: rotate(10deg);
+
 
 }
 
@@ -42,9 +62,6 @@ ul {
   float: left;
 }
 
-ul>li {
-  padding-inline-start: 10px;
-}
 
 footer {
   text-align: center;
@@ -66,5 +83,8 @@ footer {
 
 .vize {
   text-align: center;
-  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
 }
